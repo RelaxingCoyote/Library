@@ -1,0 +1,11 @@
+language: csharp
+solution: Library.sln
+mono: none
+dotnet: 5.0.202
+
+  install:
+- dotnet restore
+
+script:
+ - dotnet build
+ - dotnet test Library.Test/Library.Test.csproj
