@@ -2,11 +2,9 @@ language: csharp
 solution: Library.sln
 mono: none
 dist: xenial
-dotnet: 5.0.202
-
+dotnet: 3.1
 install:
-- dotnet restore
-
+  - dotnet restore
 script:
- - dotnet build
- - dotnet test Library.Test/Library.Test.csproj
+  - dotnet build
+  - dotnet test Library.Tests/Library.Tests.csproj
