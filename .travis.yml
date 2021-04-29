@@ -1,7 +1,9 @@
 language: csharp
 solution: Library.sln
+language: csharp
 mono: none
-dotnet: 5.0.202
+dist: xenial
+dotnet: 3.1
 
   install:
 - dotnet restore
