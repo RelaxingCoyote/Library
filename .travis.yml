@@ -1,6 +1,5 @@
 language: csharp
 solution: Library.sln
-language: csharp
 mono: none
 dist: xenial
 dotnet: 3.1
