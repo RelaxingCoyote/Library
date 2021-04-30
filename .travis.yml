@@ -6,4 +6,4 @@ dotnet: 5.0.202
 before_install:
   - dotnet restore
 script:
-  - dotnet test ./Library.Test -c Debug -f netcoreapp5.0
+  - dotnet test ./Library.Test -c Debug -f netcoreapp5.0.202
