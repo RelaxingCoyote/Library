@@ -6,4 +6,5 @@ dotnet: 5.0.202
 before_install:
   - dotnet restore
 script:
- - dotnet test -c Release --no-build Library.Test/Library.Test.csproj /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
+ - dotnet build CIDemo.sln -c Debug
+ - dotnet test -c Debug --no-build Library.Test/Library.Test.csproj /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
