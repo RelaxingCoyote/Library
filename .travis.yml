@@ -4,6 +4,7 @@ mono: none
 dist: xenial
 dotnet: 5.0.202
 install:
+  - curl -L -o nuget.exe https://dist.nuget.org/win-x86-commandline/latest/nuget.exe
   - nuget restore Library.Test/Library.Test.sln
   - nuget install xunit.runners -Version 1.9.2 -OutputDirectory testrunner
 script:
