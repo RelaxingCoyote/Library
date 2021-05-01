@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "68CLOcnfwKTaYBhMWmKozElJXFOQBnENVebxA0/eUv+U2HNr8DrCDm0vH3v2IWKCcTrNrA4hnhE8uCikR4UwQw==",
+  "dgSpecHash": "5pMF+9Ub/x1dGfH2LkJWJpHohApm1MYouuFZsrJlDRt6Wh3u+Mx3ymi6ImJJYZFZUrMwzkKqUa3j9hh9ZgRMRg==",
   "success": true,
   "projectFilePath": "C:\\Users\\markh\\source\\repos\\Library\\Library.Test\\Library.Test.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\markh\\.nuget\\packages\\coverlet.msbuild\\3.0.3\\coverlet.msbuild.3.0.3.nupkg.sha512",
     "C:\\Users\\markh\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",
     "C:\\Users\\markh\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\markh\\.nuget\\packages\\microsoft.net.test.sdk\\16.9.4\\microsoft.net.test.sdk.16.9.4.nupkg.sha512",

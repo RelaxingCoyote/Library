@@ -20,5 +20,15 @@ namespace Library.Test
             Assert.NotNull(result);
         }
 
+        [Fact]
+        public void InfoViewResultNotNull()
+        {
+            // Arrange
+            LibraryController controller = new LibraryController();
+            // Act
+            ViewResult result = controller.Info() as ViewResult;
+            // Assert
+            Assert.NotNull(result);
+        }
     }
 }
