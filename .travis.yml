@@ -7,7 +7,7 @@ notifications:
   email:
     recipients:
       - markoosha98@gmail.com
-      - markhairov@mail.ru
+      - mah9@tpu.ru
     on_success: change
     on_failure: always
 before_install:
